@@ -12,3 +12,8 @@ Inspired by [Appalette](https://github.com/Carlosarturo28/Appalette) plugin for 
 
 ## Run
 Extensions -> Color -> Inkpalette
+
+## Platforms
+- Linux
+- Windows
+- OS X (while not testing)
