@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Inkpalette</_name>
+  <id>io.github.justden.inkpalette</id>
+  <dependency type="executable" location="extensions">inkpalette.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+
+  <param name="colors" type="enum" gui-text="Select the brand color:">
+    <_item value="Airbnb">Airbnb</_item>
+    <_item value="Babycenter">Babycenter</_item>
+    <_item value="Cappture">Cappture</_item>
+    <_item value="Deezer">Deezer</_item>
+    <_item value="Duolingo">Duolingo</_item>
+    <_item value="Dropbox">Dropbox</_item>
+    <_item value="eBay">eBay</_item>
+    <_item value="Evernote">Evernote</_item>
+    <_item value="Facebook">Facebook</_item>
+    <_item value="Feedly">Feedly</_item>
+    <_item value="Firefox">Firefox</_item>
+    <_item value="Fitbit">Fitbit</_item>
+    <_item value="Flipboard">Flipboard</_item>
+    <_item value="Google">Google</_item>
+    <_item value="Hulu">Hulu</_item>
+    <_item value="IFTTT">IFTTT</_item>
+    <_item value="Instagram">Instagram</_item>
+    <_item value="KhanAcademy">Khan Academy</_item>
+    <_item value="Lifesum">Lifesum</_item>
+    <_item value="LinkedIn">LinkedIn</_item>
+    <_item value="Lyft">Lyft</_item>
+    <_item value="Merlin">Merlin</_item>
+    <_item value="Netflix">Netflix</_item>
+    <_item value="PayPal">PayPal</_item>
+    <_item value="Periscope">Periscope</_item>
+    <_item value="QuizUp">QuizUp</_item>
+    <_item value="Reddit">Reddit</_item>
+    <_item value="Shazam">Shazam</_item>
+    <_item value="Shopify">Shopify</_item>
+    <_item value="Skillshare">Skillshare</_item>
+    <_item value="Skype">Skype</_item>
+    <_item value="Slack">Slack</_item>
+    <_item value="Snapchat">Snapchat</_item>
+    <_item value="SoundCloud">SoundCloud</_item>
+    <_item value="Spotify">Spotify</_item>
+    <_item value="StackOverflow">Stack Overflow</_item>
+    <_item value="Steam">Steam</_item>
+    <_item value="Strava">Strava</_item>
+    <_item value="Telegram">Telegram</_item>
+    <_item value="TiVo">TiVo</_item>
+    <_item value="Treehouse">Treehouse</_item>
+    <_item value="Trello">Trello</_item>
+    <_item value="Tumblr">Tumblr</_item>
+    <_item value="Twitch">Twitch</_item>
+    <_item value="Uber">Uber</_item>
+    <_item value="Unity">Unity</_item>
+    <_item value="Vimeo">Vimeo</_item>
+    <_item value="Vine">Vine</_item>
+    <_item value="WeChat">WeChat</_item>
+    <_item value="WhatsApp">WhatsApp</_item>
+    <_item value="Wikipedia">Wikipedia</_item>
+    <_item value="WordPress">WordPress</_item>
+    <_item value="Yelp">Yelp</_item>
+    <_item value="YouTube">YouTube</_item>
+    
+  </param>
+
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="Color"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">inkpalette.py</command>
+  </script>
+</inkscape-extension>
