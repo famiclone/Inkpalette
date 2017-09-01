@@ -12,6 +12,7 @@ Inspired by [Appalette](https://github.com/Carlosarturo28/Appalette) plugin for 
 
 ## Run
 Extensions -> Color -> Inkpalette
+![Screenshot](https://github.com/justden/Inkpalette/blob/master/screenshot_1.png)
 
 ## Platforms
 - Linux
